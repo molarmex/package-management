@@ -35,8 +35,8 @@ sudo yum -y install jenkins  --nobest
 ```
 # start Jenkins  service and verify Jenkins is running
 ```sh
-sudo systemctl start jenkins
 sudo systemctl enable jenkins
+sudo systemctl start jenkins
 sudo systemctl status jenkins
 ```
 # Access Jenkins from the browser
